@@ -9,10 +9,3 @@ To install a GitHub Package in R you may need *devtools*. If so, please run the 
 if (!requireNamespace("devtools", quietly = TRUE)) 
 install.packages("devtools") 
 ```
-
-You can install an R package that is publicly available in GitHub by using the following code 
-(replacing **danmedrano88/repo** with the correct information): 
-```R 
-devtools::install_github('danmedrano88/repo') 
-``` 
-You can also create links to files in your repository, for example the script ["hello.R"](R/hello.R) in the R folder  
